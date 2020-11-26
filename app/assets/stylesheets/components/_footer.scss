@@ -1,66 +1,70 @@
 .footer {
-    background-color: #242425;
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding:1rem;
-    width:100%;
+  background-color: #242425;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding:1rem;
+  width:100%;
 
-    &__copyright {
-        align-self: center;
-        justify-self: left;
+  &__copyright {
+    align-self: center;
+    justify-self: left;
+  }
+
+  &__paragraph{
+    font-size:10px;
+  }
+
+  &__social {
+    align-self: center;
+    
+  }
+
+  &__flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center
+  }
+
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+    color: rgba(255,255,255,.3);
+    font-size: 1rem;
+  }
+
+  &__simon:link,
+  &__simon:visited {
+    text-decoration: none;
+    color:rgba(255,255,255,.3);
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all .5s;
+
+    &:hover{
+      font-size:1.5rem;
+      color:orange;
+    }
+  }
+
+  &__item {
+    margin-right:3rem;
+    list-style: none;
+  }
+
+  &__logo {
+  transition: all .5s;
+  font-size :2rem;
+
+    &:hover {
+      color:white;
+      transform: scale(1.5);
     }
 
-    &__paragraph{
-        font-size:10px;
+    &--github {
+      font-size:2.5rem;
+      color: rgba(255,255,255,.3);
     }
-
-    &__social {
-        align-self: center;
-    }
-
-    &__flex {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    &__link:link,
-    &__link:visited {
-        text-decoration: none;
-        color: rgba(255,255,255,.3);
-        font-size: 1rem;
-    }
-
-    &__simon:link,
-    &__simon:visited {
-        text-decoration: none;
-        color:rgba(255,255,255,.3);
-        font-size: 1rem;
-        font-weight: 400;
-        text-transform: uppercase;
-        transition: all .5s;
-
-        &:hover{
-            font-size:1.5rem;
-        }
-    }
-
-    &__item {
-        margin-right:1rem;
-        list-style: none;
-    }
-
-    &__logo {
-        transition: all .5s;
-        font-size :1.5rem;
-
-        &:hover {
-            color:white;
-            transform: scale(1.5);
-        }
-
-        &--github {
-            color: black;
-        }
-    }
+  }
 }
