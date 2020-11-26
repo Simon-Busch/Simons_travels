@@ -98,6 +98,31 @@ us9 = Travel.create(name:"us", address:"las vegas");
 us10 = Travel.create(name:"us", address:"san francisco");
 us11 = Travel.create(name:"us", address:"san diego");
 
+singapore = Travel.create(name:"singapore", address:"singapore");
 
+malaysia = Travel.create(name:"malaysia", address:"kuala lumpur");
+
+southkorea = Travel.create(name:"korea", address:"seoul");
+
+japan = Travel.create(name:"japan", address:"tokyo");
+japan2 = Travel.create(name:"japan", address:"kobe");
+japan3 = Travel.create(name:"japan", address:"osaka");
+
+taiwan = Travel.create(name:"taiwan", address:"taipei");
+
+hongkong = Travel.create(name:"hongkong", address:"hong-kong");
+
+vietnam = Travel.create(name:"vietnam", address:"hanoi");
+
+bali = Travel.create(name:"bali", address:"canggu");
+
+philippines = Travel.create(name:"philippines", address:"clark");
+philippines2 = Travel.create(name:"philippines", address:"cebu");
+philippines3 = Travel.create(name:"philippines", address:"manila");
+
+
+australia = Travel.create(name:"australia", address:"melbourne");
+australia2 = Travel.create(name:"australia", address:"canberra");
+australia3 = Travel.create(name:"australia", address:"syndney");
 
 puts "done"
