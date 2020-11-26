@@ -34,16 +34,15 @@ const initMapbox = () => {
     mapboxgl.accessToken = mapElement.dataset.mapboxApiKey;
     const map = new mapboxgl.Map({
       container: 'map',
-      style: 'mapbox://styles/simonbusch/ckhx7ktxx0ksi19mikiyjryqe'
+      style: 'mapbox://styles/simonbusch/ckhz6u8vl0rot19nclcyzswo0'
     });
 
     const markers = JSON.parse(mapElement.dataset.markers);
     
-
     fitMapToMarkers(map, markers);
     addMarkersToMap(map,markers);
-    map.addControl(new MapboxGeocoder({ accessToken: mapboxgl.accessToken,
-    mapboxgl: mapboxgl }));
+    // map.addControl(new MapboxGeocoder({ accessToken: mapboxgl.accessToken,
+    // mapboxgl: mapboxgl }));
   }
 };
 
