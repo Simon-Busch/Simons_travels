@@ -13,6 +13,13 @@
 @import "components/index";
 @import "pages/index";
 
+*,
+*::before,
+*::after {
+
+}
+
 body {
   background-color: #242425;
+  width:100%;
 }

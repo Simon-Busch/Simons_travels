@@ -54,6 +54,7 @@ denmark = Travel.create(name:"Denmark", address:"Gotenburg");
 
 italy = Travel.create(name:"Italy", address:"Milan");
 italy2 = Travel.create(name:"Italy", address:"Bologna");
+italy3 = Travel.create(name:"Italy", address:"Rome");
 
 spain = Travel.create(name:"Spain", address:"Barcelona");
 spain2 = Travel.create(name:"Spain", address:"Madrid");
@@ -61,6 +62,16 @@ spain3 = Travel.create(name:"Spain", address:"Malaga");
 spain4 = Travel.create(name:"Spain", address:"Valencia");
 spain5 = Travel.create(name:"Spain", address:"Seville");
 spain6 = Travel.create(name:"Spain", address:"Granada");
+turkey = Travel.create(name:"turkey", address:"Istanbul");
+china = Travel.create(name:"China", address:"Shanghai");
+china2 = Travel.create(name:"China", address:"Beijin");
+china3 = Travel.create(name:"China", address:"Qingdao");
+china4 = Travel.create(name:"China", address:"Hangzhou");
+china5 = Travel.create(name:"China", address:"Wuhan");
+china6 = Travel.create(name:"China", address:"Guangzhou");
+china7 = Travel.create(name:"China", address:"Shenzhen");
+
+tenerife = Travel.create(name:"Tenerife", address:"tenerife");
 
 portugal = Travel.create(name:"Portugal", address:"Lisbon");
 
@@ -113,7 +124,7 @@ taiwan = Travel.create(name:"taiwan", address:"taipei");
 hongkong = Travel.create(name:"hongkong", address:"hong-kong");
 
 vietnam = Travel.create(name:"vietnam", address:"hanoi");
-
+indonesia = Travel.create(name:"indonesia", address:"jakarta");
 bali = Travel.create(name:"bali", address:"canggu");
 
 philippines = Travel.create(name:"philippines", address:"clark");
